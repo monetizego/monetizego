@@ -13,8 +13,8 @@ function initAds() {
 <div id="ad-container">
     <!-- Banner Ad -->
     <div id="banner-ad">
-<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-<div id="gpt-passback">
+ <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+ <div id="gpt-passback">
   <script>
     window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
@@ -24,7 +24,8 @@ function initAds() {
     googletag.display('gpt-passback');
     });
   </script>
-</div>    </div>
+ </div>    
+</div>
 
     <!-- Video player element -->
     <video id="video-player" controls></video>
