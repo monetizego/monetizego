@@ -65,7 +65,7 @@ function initAds() {
 
         // Request video ads
         var adsRequest = new google.ima.AdsRequest();
-        adsRequest.adTagUrl = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/22724712014/web_test_unit&description_url=https%3A%2F%2Fwww.marieclaire.fr%2F&tfcd=0&npa=0&sz=400x300%7C640x480&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=&vad_type=linear'; // Replace with your ad tag URL
+        adsRequest.adTagUrl = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/22724712014,21720049534/kwords/marieclaire.fr/marieclaire.fr_video&description_url=https%3A%2F%2Fwww.marieclaire.fr%2F&tfcd=0&npa=0&sz=300x169%7C300x250%7C400x300%7C640x480&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=&vad_type=linear'; // Replace with your ad tag URL
 
         // Load the ads request
         adsLoader.requestAds(adsRequest);
