@@ -115,7 +115,6 @@ function initAds() {
         document.getElementById("banner-ad").style.display = "block"; // Show banner ad
     }
 }
-
 });
 </script>
 
